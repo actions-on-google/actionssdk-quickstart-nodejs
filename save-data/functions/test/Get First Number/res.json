@@ -1,0 +1,29 @@
+{
+  "expectUserResponse": true,
+  "expectedInputs": [
+    {
+      "possibleIntents": [
+        {
+          "intent": "actions.intent.TEXT"
+        }
+      ],
+      "inputPrompt": {
+        "richInitialPrompt": {
+          "items": [
+            {
+              "simpleResponse": {
+                "textToSpeech": "Got it, the first number is 23."
+              }
+            },
+            {
+              "simpleResponse": {
+                "textToSpeech": "What's the second number?"
+              }
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "conversationToken": "{\"data\":{\"firstNum\":23}}"
+}

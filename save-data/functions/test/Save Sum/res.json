@@ -1,0 +1,16 @@
+{
+  "expectUserResponse": false,
+  "finalResponse": {
+    "richResponse": {
+      "items": [
+        {
+          "simpleResponse": {
+            "textToSpeech": "Alright, I'll store that for next time. See you then."
+          }
+        }
+      ]
+    }
+  },
+  "conversationToken": "{\"data\":{\"firstNum\":23,\"sum\":68}}",
+  "userStorage": "{\"data\":{\"sum\":68}}"
+}

@@ -1,0 +1,28 @@
+{
+  "expectUserResponse": true,
+  "expectedInputs": [
+    {
+      "possibleIntents": [
+        {
+          "intent": "actions.intent.TEXT"
+        }
+      ],
+      "inputPrompt": {
+        "richInitialPrompt": {
+          "items": [
+            {
+              "simpleResponse": {
+                "textToSpeech": "Hi! Let's add two numbers."
+              }
+            },
+            {
+              "simpleResponse": {
+                "textToSpeech": "What's the first number?"
+              }
+            }
+          ]
+        }
+      }
+    }
+  ]
+}

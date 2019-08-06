@@ -1,0 +1,28 @@
+{
+  "expectUserResponse": true,
+  "expectedInputs": [
+    {
+      "possibleIntents": [
+        {
+          "intent": "actions.intent.TEXT"
+        }
+      ],
+      "inputPrompt": {
+        "richInitialPrompt": {
+          "items": [
+            {
+              "simpleResponse": {
+                "textToSpeech": "Hi! Welcome to Lowest Temperature Updates! I can tell you the lowest temperature each day."
+              }
+            }
+          ],
+          "suggestions": [
+            {
+              "title": "Hear lowest temperature"
+            }
+          ]
+        }
+      }
+    }
+  ]
+}

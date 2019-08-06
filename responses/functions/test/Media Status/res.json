@@ -1,0 +1,28 @@
+{
+  "expectUserResponse": true,
+  "expectedInputs": [
+    {
+      "possibleIntents": [
+        {
+          "intent": "actions.intent.TEXT"
+        }
+      ],
+      "inputPrompt": {
+        "richInitialPrompt": {
+          "items": [
+            {
+              "simpleResponse": {
+                "textToSpeech": "Hope you enjoyed the tune!"
+              }
+            },
+            {
+              "simpleResponse": {
+                "textToSpeech": "Which response would you like to see next?"
+              }
+            }
+          ]
+        }
+      }
+    }
+  ]
+}

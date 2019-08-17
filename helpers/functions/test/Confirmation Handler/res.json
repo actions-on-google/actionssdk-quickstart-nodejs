@@ -1,0 +1,39 @@
+{
+  "expectUserResponse": true,
+  "expectedInputs": [
+    {
+      "possibleIntents": [
+        {
+          "intent": "actions.intent.TEXT"
+        }
+      ],
+      "inputPrompt": {
+        "richInitialPrompt": {
+          "items": [
+            {
+              "simpleResponse": {
+                "textToSpeech": "Thank you for confirming"
+              }
+            },
+            {
+              "simpleResponse": {
+                "textToSpeech": "Would you like to try another helper?"
+              }
+            }
+          ],
+          "suggestions": [
+            {
+              "title": "DateTime"
+            },
+            {
+              "title": "Permission"
+            },
+            {
+              "title": "Place"
+            }
+          ]
+        }
+      }
+    }
+  ]
+}

@@ -1,0 +1,39 @@
+{
+  "expectUserResponse": true,
+  "expectedInputs": [
+    {
+      "possibleIntents": [
+        {
+          "intent": "actions.intent.TEXT"
+        }
+      ],
+      "inputPrompt": {
+        "richInitialPrompt": {
+          "items": [
+            {
+              "simpleResponse": {
+                "textToSpeech": "Googleplex sounds like a great place to go!"
+              }
+            },
+            {
+              "simpleResponse": {
+                "textToSpeech": "Would you like to try another helper?"
+              }
+            }
+          ],
+          "suggestions": [
+            {
+              "title": "Confirmation"
+            },
+            {
+              "title": "DateTime"
+            },
+            {
+              "title": "Permission"
+            }
+          ]
+        }
+      }
+    }
+  ]
+}

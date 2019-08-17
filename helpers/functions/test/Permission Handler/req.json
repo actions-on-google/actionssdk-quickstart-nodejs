@@ -1,0 +1,87 @@
+{
+  "user": {
+    "profile": {
+      "displayName": "Sachit Mishra",
+      "givenName": "Sachit",
+      "familyName": "Mishra"
+    },
+    "permissions": [
+      "DEVICE_PRECISE_LOCATION",
+      "NAME"
+    ],
+    "locale": "en-US",
+    "userVerificationStatus": "VERIFIED"
+  },
+  "conversation": {
+    "conversationId": "ABwppHEcidO2jguO4hS8maDeMVx8aasSCcBWZHrF3EmOMIaWRP9qF0BcACistiIoeyiSNTW6KD_tqN_U-xAIOXhPvA",
+    "type": "NEW"
+  },
+  "inputs": [
+    {
+      "intent": "actions.intent.PERMISSION",
+      "rawInputs": [
+        {
+          "inputType": "KEYBOARD",
+          "query": "yes"
+        }
+      ],
+      "arguments": [
+        {
+          "name": "PERMISSION",
+          "boolValue": true,
+          "textValue": "true"
+        },
+        {
+          "name": "text",
+          "rawText": "yes",
+          "textValue": "yes"
+        }
+      ]
+    }
+  ],
+  "surface": {
+    "capabilities": [
+      {
+        "name": "actions.capability.AUDIO_OUTPUT"
+      },
+      {
+        "name": "actions.capability.MEDIA_RESPONSE_AUDIO"
+      },
+      {
+        "name": "actions.capability.ACCOUNT_LINKING"
+      },
+      {
+        "name": "actions.capability.SCREEN_OUTPUT"
+      },
+      {
+        "name": "actions.capability.WEB_BROWSER"
+      }
+    ]
+  },
+  "device": {
+    "location": {
+      "coordinates": {
+        "latitude": 37.4197238,
+        "longitude": -122.08212759999999
+      },
+      "formattedAddress": "Google Building 45 1585 Charleston Road, Mountain View, California 94043",
+      "zipCode": "94043",
+      "city": "Mountain View"
+    }
+  },
+  "availableSurfaces": [
+    {
+      "capabilities": [
+        {
+          "name": "actions.capability.SCREEN_OUTPUT"
+        },
+        {
+          "name": "actions.capability.WEB_BROWSER"
+        },
+        {
+          "name": "actions.capability.AUDIO_OUTPUT"
+        }
+      ]
+    }
+  ]
+}

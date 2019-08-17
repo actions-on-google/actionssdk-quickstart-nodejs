@@ -1,0 +1,20 @@
+{
+  "expectUserResponse": true,
+  "expectedInputs": [
+    {
+      "possibleIntents": [
+        {
+          "intent": "actions.intent.DATETIME",
+          "inputValueData": {
+            "@type": "type.googleapis.com/google.actions.v2.DateTimeValueSpec",
+            "dialogSpec": {
+              "requestDatetimeText": "When would you like to schedule the appointment?",
+              "requestDateText": "What day was that?",
+              "requestTimeText": "What time works for you?"
+            }
+          }
+        }
+      ]
+    }
+  ]
+}

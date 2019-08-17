@@ -1,0 +1,18 @@
+{
+  "expectUserResponse": true,
+  "expectedInputs": [
+    {
+      "possibleIntents": [
+        {
+          "intent": "actions.intent.CONFIRMATION",
+          "inputValueData": {
+            "@type": "type.googleapis.com/google.actions.v2.ConfirmationValueSpec",
+            "dialogSpec": {
+              "requestConfirmationText": "Can you confirm?"
+            }
+          }
+        }
+      ]
+    }
+  ]
+}

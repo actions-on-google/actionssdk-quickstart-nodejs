@@ -1,0 +1,22 @@
+{
+  "expectUserResponse": true,
+  "expectedInputs": [
+    {
+      "possibleIntents": [
+        {
+          "intent": "actions.intent.PLACE",
+          "inputValueData": {
+            "@type": "type.googleapis.com/google.actions.v2.PlaceValueSpec",
+            "dialogSpec": {
+              "extension": {
+                "@type": "type.googleapis.com/google.actions.v2.PlaceValueSpec.PlaceDialogSpec",
+                "permissionContext": "To find a location",
+                "requestPrompt": "Where would you like to go?"
+              }
+            }
+          }
+        }
+      ]
+    }
+  ]
+}

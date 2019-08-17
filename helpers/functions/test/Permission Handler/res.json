@@ -1,0 +1,39 @@
+{
+  "expectUserResponse": true,
+  "expectedInputs": [
+    {
+      "possibleIntents": [
+        {
+          "intent": "actions.intent.TEXT"
+        }
+      ],
+      "inputPrompt": {
+        "richInitialPrompt": {
+          "items": [
+            {
+              "simpleResponse": {
+                "textToSpeech": "Okay Sachit Mishra, I see you're at Google Building 45 1585 Charleston Road, Mountain View, California 94043"
+              }
+            },
+            {
+              "simpleResponse": {
+                "textToSpeech": "Would you like to try another helper?"
+              }
+            }
+          ],
+          "suggestions": [
+            {
+              "title": "Confirmation"
+            },
+            {
+              "title": "DateTime"
+            },
+            {
+              "title": "Place"
+            }
+          ]
+        }
+      }
+    }
+  ]
+}

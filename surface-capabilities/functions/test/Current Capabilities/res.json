@@ -1,0 +1,36 @@
+{
+  "expectUserResponse": true,
+  "expectedInputs": [
+    {
+      "possibleIntents": [
+        {
+          "intent": "actions.intent.TEXT"
+        }
+      ],
+      "inputPrompt": {
+        "richInitialPrompt": {
+          "items": [
+            {
+              "simpleResponse": {
+                "textToSpeech": "Looks like your current device has the screen output capability, has the audio output capability, has the media capability, has the browser capability, does not have the interactive canvas capability, "
+              }
+            },
+            {
+              "simpleResponse": {
+                "textToSpeech": "What else would you like to try?"
+              }
+            }
+          ],
+          "suggestions": [
+            {
+              "title": "Transfer surface"
+            },
+            {
+              "title": "Current capabilities"
+            }
+          ]
+        }
+      }
+    }
+  ]
+}

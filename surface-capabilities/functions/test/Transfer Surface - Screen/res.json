@@ -1,0 +1,36 @@
+{
+  "expectUserResponse": true,
+  "expectedInputs": [
+    {
+      "possibleIntents": [
+        {
+          "intent": "actions.intent.TEXT"
+        }
+      ],
+      "inputPrompt": {
+        "richInitialPrompt": {
+          "items": [
+            {
+              "simpleResponse": {
+                "textToSpeech": "You're already on a screen device."
+              }
+            },
+            {
+              "simpleResponse": {
+                "textToSpeech": "What else would you like to try?"
+              }
+            }
+          ],
+          "suggestions": [
+            {
+              "title": "Transfer surface"
+            },
+            {
+              "title": "Current capabilities"
+            }
+          ]
+        }
+      }
+    }
+  ]
+}

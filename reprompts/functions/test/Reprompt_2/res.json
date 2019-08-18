@@ -1,0 +1,23 @@
+{
+  "expectUserResponse": true,
+  "expectedInputs": [
+    {
+      "inputPrompt": {
+        "richInitialPrompt": {
+          "items": [
+            {
+              "simpleResponse": {
+                "textToSpeech": "Sorry I didn't catch that. Could you repeat yourself?"
+              }
+            }
+          ]
+        }
+      },
+      "possibleIntents": [
+        {
+          "intent": "actions.intent.TEXT"
+        }
+      ]
+    }
+  ]
+}

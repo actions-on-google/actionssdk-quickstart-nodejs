@@ -1,0 +1,14 @@
+{
+  "expectUserResponse": false,
+  "finalResponse": {
+    "richResponse": {
+      "items": [
+        {
+          "simpleResponse": {
+            "textToSpeech": "Okay, talk to you next time!"
+          }
+        }
+      ]
+    }
+  }
+}

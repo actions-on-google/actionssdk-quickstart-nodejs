@@ -1,0 +1,21 @@
+{
+  "expectUserResponse": true,
+  "expectedInputs": [
+    {
+      "possibleIntents": [
+        {
+          "intent": "actions.intent.PERMISSION",
+          "inputValueData": {
+            "@type": "type.googleapis.com/google.actions.v2.PermissionValueSpec",
+            "permissions": [
+              "UPDATE"
+            ],
+            "updatePermissionValueSpec": {
+              "intent": "Notification"
+            }
+          }
+        }
+      ]
+    }
+  ]
+}

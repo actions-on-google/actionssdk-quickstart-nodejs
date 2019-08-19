@@ -1,0 +1,23 @@
+{
+  "expectUserResponse": true,
+  "expectedInputs": [
+    {
+      "possibleIntents": [
+        {
+          "intent": "actions.intent.TEXT"
+        }
+      ],
+      "inputPrompt": {
+        "richInitialPrompt": {
+          "items": [
+            {
+              "simpleResponse": {
+                "textToSpeech": "Hey there! What's your favorite color?"
+              }
+            }
+          ]
+        }
+      }
+    }
+  ]
+}

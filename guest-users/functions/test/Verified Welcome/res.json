@@ -1,0 +1,28 @@
+{
+  "expectUserResponse": true,
+  "expectedInputs": [
+    {
+      "possibleIntents": [
+        {
+          "intent": "actions.intent.TEXT"
+        }
+      ],
+      "inputPrompt": {
+        "richInitialPrompt": {
+          "items": [
+            {
+              "simpleResponse": {
+                 "textToSpeech": "Hey there! I remember your favorite color is blue"
+              }
+            },
+            {
+              "simpleResponse": {
+                "textToSpeech": "Can you give me another color to remember?"
+              }
+            }
+          ]
+        }
+      }
+    }
+  ]
+}

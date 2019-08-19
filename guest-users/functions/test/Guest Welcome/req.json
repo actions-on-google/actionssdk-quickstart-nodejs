@@ -1,0 +1,55 @@
+{
+  "user": {
+    "locale": "en-US",
+    "userVerificationStatus": "GUEST"
+  },
+  "conversation": {
+    "conversationId": "ABwppHGQDgZqFsKp5Fe95D4g4u2DrASjOS45_5e7GSUDcm3I3q_cUEG44rn0rgUPLGnwDAYTcaeLqBMCsXJP3rc_",
+    "type": "NEW"
+  },
+  "inputs": [
+    {
+      "intent": "actions.intent.MAIN",
+      "rawInputs": [
+        {
+          "inputType": "KEYBOARD",
+          "query": "Talk to my test app"
+        }
+      ]
+    }
+  ],
+  "surface": {
+    "capabilities": [
+      {
+        "name": "actions.capability.SCREEN_OUTPUT"
+      },
+      {
+        "name": "actions.capability.ACCOUNT_LINKING"
+      },
+      {
+        "name": "actions.capability.MEDIA_RESPONSE_AUDIO"
+      },
+      {
+        "name": "actions.capability.AUDIO_OUTPUT"
+      },
+      {
+        "name": "actions.capability.WEB_BROWSER"
+      }
+    ]
+  },
+  "availableSurfaces": [
+    {
+      "capabilities": [
+        {
+          "name": "actions.capability.SCREEN_OUTPUT"
+        },
+        {
+          "name": "actions.capability.WEB_BROWSER"
+        },
+        {
+          "name": "actions.capability.AUDIO_OUTPUT"
+        }
+      ]
+    }
+  ]
+}

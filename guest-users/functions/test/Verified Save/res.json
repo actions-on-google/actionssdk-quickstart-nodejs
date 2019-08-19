@@ -1,0 +1,15 @@
+{
+  "expectUserResponse": false,
+  "finalResponse": {
+    "richResponse": {
+      "items": [
+        {
+          "simpleResponse": {
+            "textToSpeech": "Alright, I'll remember that you like blue. See you!"
+          }
+        }
+      ]
+    }
+  },
+  "userStorage": "{\"data\":{\"favoriteColor\":\"blue\"}}"
+}

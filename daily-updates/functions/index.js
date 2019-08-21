@@ -13,13 +13,13 @@
 
 'use strict';
 
-// [START imports_asdk]
+// [START du_imports_asdk_js]
 const {
   actionssdk,
   RegisterUpdate,
   Suggestions,
 } = require('actions-on-google');
-// [END imports_asdk]
+// [END du_imports_asdk_js]
 
 const functions = require('firebase-functions');
 const lowestTemperatures = {

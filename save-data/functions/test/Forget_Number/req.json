@@ -2,7 +2,8 @@
   "user": {
     "locale": "en-US",
     "lastSeen": "2019-08-02T02:48:10Z",
-    "userVerificationStatus": "VERIFIED"
+    "userVerificationStatus": "VERIFIED",
+    "userStorage": "{\"data\":{\"sum\":68}}"
   },
   "conversation": {
     "conversationId": "ABwppHG6GwfE1M4MwUzFGG0R9XoEaE6LR0KnbqUG-ffghtB47k8sKkAUDLTzLTBTKQjRj70pcIYg8DZ6l0y2JpgJcsTCxk7phA",

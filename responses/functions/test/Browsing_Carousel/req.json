@@ -1,11 +1,11 @@
 {
   "user": {
     "locale": "en-US",
-    "lastSeen": "2019-08-06T07:36:56Z",
+    "lastSeen": "2019-08-06T08:00:43Z",
     "userVerificationStatus": "VERIFIED"
   },
   "conversation": {
-    "conversationId": "ABwppHGcqunXh1M6IE0lu2sVqXdpJfdpC5FWMkMSXQskK1nzb4IkSUSRqQzoEr0Ly0z_G3mwyZlk5rFtd1w",
+    "conversationId": "ABwppHGmPcJPh0ML6oJUzqzkJ77s7Hr0NWxHA5tRTtj5KuFVZCzxVsLs9LwZxR-we4bmGYLbCNbGCqL4sL0",
     "type": "NEW"
   },
   "inputs": [
@@ -14,14 +14,14 @@
       "rawInputs": [
         {
           "inputType": "KEYBOARD",
-          "query": "carousel"
+          "query": "browsing carousel"
         }
       ],
       "arguments": [
         {
           "name": "text",
-          "rawText": "carousel",
-          "textValue": "carousel"
+          "rawText": "browsing carousel",
+          "textValue": "browsing carousel"
         }
       ]
     }
@@ -29,10 +29,10 @@
   "surface": {
     "capabilities": [
       {
-        "name": "actions.capability.MEDIA_RESPONSE_AUDIO"
+        "name": "actions.capability.AUDIO_OUTPUT"
       },
       {
-        "name": "actions.capability.ACCOUNT_LINKING"
+        "name": "actions.capability.MEDIA_RESPONSE_AUDIO"
       },
       {
         "name": "actions.capability.WEB_BROWSER"
@@ -41,7 +41,7 @@
         "name": "actions.capability.SCREEN_OUTPUT"
       },
       {
-        "name": "actions.capability.AUDIO_OUTPUT"
+        "name": "actions.capability.ACCOUNT_LINKING"
       }
     ]
   },
@@ -50,13 +50,13 @@
     {
       "capabilities": [
         {
+          "name": "actions.capability.WEB_BROWSER"
+        },
+        {
           "name": "actions.capability.AUDIO_OUTPUT"
         },
         {
           "name": "actions.capability.SCREEN_OUTPUT"
-        },
-        {
-          "name": "actions.capability.WEB_BROWSER"
         }
       ]
     }

@@ -1,31 +1,27 @@
 {
   "user": {
     "locale": "en-US",
-    "lastSeen": "2019-08-06T07:37:15Z",
+    "lastSeen": "2019-08-06T08:03:29Z",
     "userVerificationStatus": "VERIFIED"
   },
   "conversation": {
-    "conversationId": "ABwppHGcqunXh1M6IE0lu2sVqXdpJfdpC5FWMkMSXQskK1nzb4IkSUSRqQzoEr0Ly0z_G3mwyZlk5rFtd1w",
+    "conversationId": "ABwppHGmPcJPh0ML6oJUzqzkJ77s7Hr0NWxHA5tRTtj5KuFVZCzxVsLs9LwZxR-we4bmGYLbCNbGCqL4sL0",
     "type": "NEW"
   },
   "inputs": [
     {
-      "intent": "actions.intent.OPTION",
+      "intent": "actions.intent.TEXT",
       "rawInputs": [
         {
-          "inputType": "TOUCH",
-          "query": "Google Home"
+          "inputType": "KEYBOARD",
+          "query": "simple table"
         }
       ],
       "arguments": [
         {
-          "name": "OPTION",
-          "textValue": "SELECTION_KEY_GOOGLE_HOME"
-        },
-        {
           "name": "text",
-          "rawText": "Google Home",
-          "textValue": "Google Home"
+          "rawText": "simple table",
+          "textValue": "simple table"
         }
       ]
     }
@@ -33,19 +29,19 @@
   "surface": {
     "capabilities": [
       {
-        "name": "actions.capability.AUDIO_OUTPUT"
+        "name": "actions.capability.SCREEN_OUTPUT"
+      },
+      {
+        "name": "actions.capability.ACCOUNT_LINKING"
       },
       {
         "name": "actions.capability.MEDIA_RESPONSE_AUDIO"
       },
       {
+        "name": "actions.capability.AUDIO_OUTPUT"
+      },
+      {
         "name": "actions.capability.WEB_BROWSER"
-      },
-      {
-        "name": "actions.capability.SCREEN_OUTPUT"
-      },
-      {
-        "name": "actions.capability.ACCOUNT_LINKING"
       }
     ]
   },
@@ -54,13 +50,13 @@
     {
       "capabilities": [
         {
-          "name": "actions.capability.WEB_BROWSER"
-        },
-        {
           "name": "actions.capability.AUDIO_OUTPUT"
         },
         {
           "name": "actions.capability.SCREEN_OUTPUT"
+        },
+        {
+          "name": "actions.capability.WEB_BROWSER"
         }
       ]
     }

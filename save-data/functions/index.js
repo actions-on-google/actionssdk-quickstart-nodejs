@@ -33,25 +33,25 @@ app.intent('actions.intent.TEXT', (conv, input) => {
   } else if (!isNaN(parseInt(input))) {
     return getSecondNumber(conv, parseInt(input));
   } else if (input === 'yes') {
-    // [START save_data_across_convs_df]
+    // [START save_data_across_convs_asdk]
     conv.user.storage.sum = conv.data.sum;
     conv.close(`Alright, I'll store that for next time. See you then.`);
-    // [END save_data_across_convs_df]
+    // [END save_data_across_convs_asdk]
   } else {
-    // [START clear_user_storage_df]
+    // [START clear_user_storage_asdk]
     conv.user.storage = {};
     conv.ask(`Alright, I forgot your last result.`);
     conv.ask(`Let's add two new numbers. What is the first number?`);
-    // [END clear_user_storage_df]
+    // [END clear_user_storage_asdk]
   }
 });
 
 const getFirstNumber = (conv, firstNum) => {
-  // [START save_data_between_turns_df]
+  // [START save_data_between_turns_asdk]
   conv.data.firstNum = firstNum;
   conv.ask(`Got it, the first number is ${firstNum}.`);
   conv.ask(`What's the second number?`);
-  // [END save_data_between_turns_df]
+  // [END save_data_between_turns_asdk]
 };
 
 const getSecondNumber = (conv, secondNum) => {

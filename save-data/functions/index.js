@@ -34,8 +34,13 @@ app.intent('actions.intent.TEXT', (conv, input) => {
     return getSecondNumber(conv, parseInt(input));
   } else if (input === 'yes') {
     // [START save_data_across_convs_asdk]
-    conv.user.storage.sum = conv.data.sum;
-    conv.close(`Alright, I'll store that for next time. See you then.`);
+    if (conv.user.verification === 'VERIFIED') {
+      conv.user.storage.sum = conv.data.sum;
+      conv.close(`Alright, I'll store that for next time. See you then.`);
+    } else {
+      conv.close(`I can't save that right now, but we can add ` +
+        `new numbers next time!`);
+    }
     // [END save_data_across_convs_asdk]
   } else {
     // [START clear_user_storage_asdk]

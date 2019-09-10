@@ -71,22 +71,22 @@ app.intent('Daily Lowest Temperature', (conv) => {
   return dailyLowestTemperature;
 });
 
+/**
+* Best practices: Ask for daily updates in a limited capacity for optimal
+* user experience. In a production-ready app, you should be more
+* sophisticated about this, i.e. re-ask after a certain period of time
+* or number of interactions.
+*/
+// [START suggest_daily_updates_asdk]
 const dailyLowestTemperature = (conv) => {
   const today = DAYS[new Date().getDay()];
   const lowestTemperature = lowestTemperatures[today];
   conv.ask(`The lowest temperature for today is ${lowestTemperature}`);
-  /**
-  * Best practices: Ask for daily updates in a limited capacity for optimal
-  * user experience. In a production-ready app, you should be more
-  * sophisticated about this, i.e. re-ask after a certain period of time
-  * or number of interactions.
-  */
-  // [START suggest_daily_updates_asdk]
   conv.ask('I can send you daily updates with the lowest ' +
     'temperature of the day. Would you like that?');
   conv.ask(new Suggestions('Send daily updates'));
-  // [END suggest_daily_updates_asdk]
 };
+// [END suggest_daily_updates_asdk]
 
 const subscribeToDailyUpdates = (conv) => {
   // [START subscribe_to_daily_updates_asdk]

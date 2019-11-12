@@ -1,0 +1,29 @@
+{
+  "expectUserResponse": true,
+  "expectedInputs": [
+    {
+      "possibleIntents": [
+        {
+          "intent": "actions.intent.TEXT"
+        }
+      ],
+      "inputPrompt": {
+        "richInitialPrompt": {
+          "items": [
+            {
+              "simpleResponse": {
+                "textToSpeech": "Looks like you're good to go! Next I'll need your delivery address.Try saying \"get delivery address\"."
+              }
+            }
+          ],
+          "suggestions": [
+            {
+              "title": "get delivery address"
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "conversationToken": "{\"data\":{\"paymentType\":\"merchant_payment\"}}"
+}

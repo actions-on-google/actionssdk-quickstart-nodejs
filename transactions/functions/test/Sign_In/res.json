@@ -1,0 +1,17 @@
+{
+  "expectUserResponse": true,
+  "expectedInputs": [
+    {
+      "possibleIntents": [
+        {
+          "intent": "actions.intent.SIGN_IN",
+          "inputValueData": {
+            "@type": "type.googleapis.com/google.actions.v2.SignInValueSpec",
+            "optContext": "To get your account details"
+          }
+        }
+      ]
+    }
+  ],
+  "conversationToken": "{\"data\":{\"paymentType\":\"merchant_payment\"}}"
+}
